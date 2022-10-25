@@ -11,7 +11,7 @@ Minimalistic *Hello world* NodeJS Service in minikube
 ##  Steps:
 -   Open console window on user home and clone this repo:\
 `git clone https://github.com/mvergaz/hello-world-nodejs-kubernetes-service /hello-minikube`
--   Build the image onto minikube:\
+-   Build the image into minikube:\
 `minikube image build -t local/hello-node-image ./hello-minikube/`
 -   Deploy the service by applying the yaml:\
 `kubectl apply -f ./hello-minikube/hello-node-deployment.yaml`
