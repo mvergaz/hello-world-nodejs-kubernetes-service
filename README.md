@@ -24,7 +24,6 @@ Minimalistic *Hello world* NodeJS Service in minikube
 -   Expose the cluster service to the world:\
 `minikube service hello-node-app`
 ## Checking:
--   Open a browser on http://127.0.0.1:8080
 -   View the log with kubectl:\
 `kubectl logs deployment.apps/hello-node-app`
 ## Roll all back:
